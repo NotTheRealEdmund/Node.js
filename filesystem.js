@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Create a file
-fs.writeFile('example.txt', "This is an example", (err) => {    // name of file, what you want to write in it, 
+fs.writeFile('example.txt', "This is an example\n", (err) => {  // name of file, what you want to write in it, 
                                                                 // and a callback function in case anything goes wrong
     if (err) {
         console.log(err);
